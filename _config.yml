@@ -24,7 +24,7 @@ navbar-links:
   BLOGS:
     - Beautiful Jekyll: "https://beautifuljekyll.com"
     - Learn markdown: "https://www.markdowntutorial.com/"
-  
+  BLOG: "blog"
 
 ################
 # --- Logo --- #
