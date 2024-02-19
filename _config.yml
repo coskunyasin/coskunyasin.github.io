@@ -23,7 +23,7 @@ navbar-links:
   HAKKIMDA: "aboutme"
   BLOGS:
     - K8S: "/pages/k8s"
-    - Docker: ""
+    - Docker: "/pages/docker"
     - Linux: ""
   SİNEMA: "sinema"
 
