@@ -26,6 +26,7 @@ navbar-links:
     - Docker: "/pages/docker"
     - Linux: "/pages/linux"
   SİNEMA: "/pages/sinema"
+  FELSEFE: "/pages/felsefe"
 
 ################
 # --- Logo --- #
