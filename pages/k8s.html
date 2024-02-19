@@ -4,7 +4,7 @@ title: Kubernetes
 ---
 
 {% for post in site.posts %}
-  {% if post.tags == 'k8s' %}
+  {% if post.tags contains 'k8s' %}
     <li class="spaced">
       <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_long_string }}
     </li>
