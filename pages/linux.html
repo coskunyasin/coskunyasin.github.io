@@ -1,0 +1,12 @@
+---
+layout: page
+cover-img: /resource/pages_logo/k8s.png
+---
+
+{% for post in site.posts %}
+  {% if post.tags contains 'linux' %}
+    <li class="spaced">
+      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_long_string }}
+    </li>
+  {% endif %}
+{% endfor %}
