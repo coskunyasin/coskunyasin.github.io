@@ -22,8 +22,9 @@ author: Yasin Coskun
 navbar-links:
   HAKKIMDA: "aboutme"
   BLOGS:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+    - Kubernetes: ""
+    - Docker: ""
+    - Linux: ""
   BLOG: "blog"
 
 ################
