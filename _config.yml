@@ -25,7 +25,7 @@ navbar-links:
     - K8S: "/pages/k8s"
     - Docker: "/pages/docker"
     - Linux: "/pages/linux"
-  SİNEMA: "sinema"
+  SİNEMA: "/pages/sinema"
 
 ################
 # --- Logo --- #
