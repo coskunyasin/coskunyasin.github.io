@@ -1,1 +1,8 @@
-test
+---
+layout: post
+title: Deneme Yazısı
+subtitle: TEST
+tags: [test]
+comments: true
+author: Yasin Coskun
+---
