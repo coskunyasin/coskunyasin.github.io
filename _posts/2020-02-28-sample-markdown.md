@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Deneme Yazısı
+title: Deneme Yazısı1
 subtitle: TEST
 gh-repo: daattali/beautiful-jekyll
 gh-badge: [star, fork, follow]
