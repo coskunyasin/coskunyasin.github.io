@@ -22,7 +22,7 @@ author: Yasin Coskun
 navbar-links:
   HAKKIMDA: "aboutme"
   BLOGS:
-    - K8S: "pages/k8s"
+    - K8S: "/pages/k8s"
     - Docker: ""
     - Linux: ""
   SİNEMA: "sinema"
