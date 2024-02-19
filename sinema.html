@@ -11,9 +11,9 @@ title: Sinema
 </center>
 
 <ul>
-  {% for sinema in site.sinema %}
+  {% for post in site.posts %}
     <li class="spaced">
-      <a href="{{ sinema.url }}">{{ sinema.title }}</a> {{ sinema.date | date_to_long_string }}
+      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_long_string }}
     </li>
   {% endfor %}
 </ul>
