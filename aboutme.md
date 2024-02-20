@@ -12,6 +12,7 @@ subtitle: Yasin Coşkun
 #### 2016:
 
 > * Ongan Teksil'de Bilgi İşlem Uzman Yardımcısı olarak çalıştım.
+
 #### 2020:
 
 > * AirClinic şirketinde Sistem Destek Uzmanı olarak çalıştım.
