@@ -30,9 +30,6 @@ subtitle: Yasin Coşkun
 
 > * Inveon'da System Administrator olarak çalıştım.
 
-#### 2022:
-
-> * Inveon'da System Administrator olarak çalıştım.
 
 #### 2023:
 
