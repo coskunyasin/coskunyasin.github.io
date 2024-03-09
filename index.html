@@ -4,7 +4,7 @@ title: ./yasincoskun.tech
 subtitle:  'A little bit of everything'
 ---
 <center>
-<p><b>genel</b></p>
+<p><b>bir ye</b></p>
 </center>
 <ul>
   {% for post in site.posts %}
@@ -13,16 +13,3 @@ subtitle:  'A little bit of everything'
     </li>
   {% endfor %}
 </ul>
-
-
-<center>
-<p><b>kubernetes</b></p>
-</center>
-
-{% for post in site.posts %}
-  {% if post.tags contains 'kubernetes' %}
-    <li class="spaced">
-      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_long_string }}
-    </li>
-  {% endif %}
-{% endfor %}
