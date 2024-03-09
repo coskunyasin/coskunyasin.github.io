@@ -17,3 +17,6 @@ subtitle:  'A little bit of everything'
 
 #### <center> <img src="/resource/pages_logo/orga.png" height="50px"> bir şeyleri anlamak </center>
 
+- [https nasıl çalışır?](https://yasincoskun.tech/2024-02-19-k8s){:style="color: inherit"}
+- [cdn nedir?](https://yasincoskun.tech/2024-02-19-k8s){:style="color: inherit"}
+
