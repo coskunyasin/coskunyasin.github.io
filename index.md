@@ -14,6 +14,9 @@ subtitle:  'A little bit of everything'
 
 <img src="/resource/pages_logo/network.png" height="25px"> [Network-101](https://yasincoskun.tech/2024-02-19-k8s){:style="color: inherit"}
 
+<img src="/resource/pages_logo/python.png" height="25px"> [Python-101](https://yasincoskun.tech/2024-02-19-k8s){:style="color: inherit"}
+
+
 
 #### <center> <img src="/resource/pages_logo/orga.png" height="50px"> bir şeyleri anlamak </center>
 
