@@ -1,0 +1,12 @@
+---
+layout: page
+cover-img: /resource/pages_logo/terraform.jpg
+---
+
+{% for post in site.posts %}
+  {% if post.tags contains 'terraform' %}
+    <li class="spaced">
+      <a href="{{ post.url }}">{{ post.title }}</a> {{ post.date | date_to_long_string }}
+    </li>
+  {% endif %}
+{% endfor %}
