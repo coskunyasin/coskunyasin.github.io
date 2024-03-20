@@ -110,8 +110,8 @@ terraform {
 ```
 
 
-- .terraform.tfvars 
-Access key ve secret key kısımlarını "" arasında kendi bilgilerinizi gireceksiniz.
+- .terraform.tfvars \
+***Access key ve secret key kısımlarını "" arasında kendi bilgilerinizi gireceksiniz.***
 ```shell
 AWS_ACCESS_KEY =""
 AWS_SECRET_KEY =""
