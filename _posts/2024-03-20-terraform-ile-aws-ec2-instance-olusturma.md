@@ -7,7 +7,6 @@ comments: true
 author: Yasin Coskun
 ---
 
-# Terraform ile Aws Üzerinde EC2 Kaynak Olusturma
 
 >Bu yazıda free aws hesabı oluşturma, windows'a terraform kurulumu ve free ec2 instance oluşturmayı açıklayacağım.
 
@@ -66,6 +65,7 @@ resource "aws_instance" "example" {
 
 ```
 
+
 - .provider.tf
 
 ```shell
@@ -75,6 +75,7 @@ provider "aws" {
   region     = "${var.AWS_REGION}"
 }
 ```
+
 
 - .vars.tf
 
@@ -99,6 +100,7 @@ variable "AMIS" {
 }
 ```
 
+
 - .version.tf
 
 ```shell
@@ -107,8 +109,9 @@ terraform {
 }
 ```
 
+
 - .terraform.tfvars 
->Access key ve secret key kısımlarını "" arasında kendi bilgilerinizi gireceksiniz.
+Access key ve secret key kısımlarını "" arasında kendi bilgilerinizi gireceksiniz.
 ```shell
 AWS_ACCESS_KEY =""
 AWS_SECRET_KEY =""
