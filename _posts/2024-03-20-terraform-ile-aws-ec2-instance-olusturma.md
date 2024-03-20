@@ -65,7 +65,7 @@ resource "aws_instance" "example" {
 
 ```
 
-
+<br>
 - .provider.tf
 
 ```shell
@@ -76,7 +76,7 @@ provider "aws" {
 }
 ```
 
-
+<br>
 - .vars.tf
 
 ```shell
@@ -99,7 +99,7 @@ variable "AMIS" {
   }
 }
 ```
-
+<br>
 
 - .version.tf
 
@@ -108,8 +108,7 @@ terraform {
   required_version = ">= 1.7.5"
 }
 ```
-
-
+<br>
 - .terraform.tfvars \
 ***Access key ve secret key kısımlarını "" arasında kendi bilgilerinizi gireceksiniz.***
 ```shell
@@ -117,8 +116,7 @@ AWS_ACCESS_KEY =""
 AWS_SECRET_KEY =""
 AWS_REGION = "eu-west-1"
 ```
-
----
+<br>
 
 ### Terraform'u Başlatma
 
