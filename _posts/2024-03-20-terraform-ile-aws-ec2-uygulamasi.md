@@ -140,9 +140,10 @@ terraform destroy
 
 ### NOTLAR
 
-terraform komutlarında kullandığımız variablelara bu yazıda değinmedik.Basit olarak bir instansce yaratma mantığını gördük.Bu yazıda dikkat etmemiz gereken önemli nokta .vars.tf içerisindeki aşağıdaki alan. Buradaki ami değeri değişklik gösterebilir. Bu değeri [burdan](https://cloud-images.ubuntu.com/locator/ec2/) bulabilirsiniz. Bu sitede search kısmında eu-west-1 yazarak bu regiondaki AMI-ID'leri göreceğiz. Aşağıdaki değerde bunlardan bir tanesi
+terraform komutlarında kullandığımız variablelara bu yazıda değinmedik.Basit olarak bir instansce yaratma mantığını gördük.Bu yazıda dikkat etmemiz gereken önemli nokta .vars.tf içerisindeki aşağıdaki alan. Buradaki AMI değeri değişklik gösterebilir. Bu değeri [burdan](https://cloud-images.ubuntu.com/locator/ec2/) bulabilirsiniz. Bu sitede search kısmında eu-west-1 yazarak bu regiondaki AMI-ID'leri göreceğiz. Aşağıdaki değerde bunlardan bir tanesi
 
 ```
 eu-west-1 = "ami-0d0099f3f21d6b80e" 
 ```
+.instance.tf altındaki instance_type = t2.micro olmasının sebebi ise AWS'in ücretsiz olarak sunduğu instance olmasından kaynaklı.Region'a göre instance typeları değişkenlik gösterebiliyor bu yazıda eu-wes-1 üzerinden ilerledik.Bu kısmı araştırararak ücretsiz instance typeları ile kendinize göre terraformu özelleştirebilirsiniz.
 
