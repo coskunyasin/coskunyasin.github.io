@@ -34,7 +34,7 @@ Herşey tamamsa terraform'u windows'a yükleme adımına geçebiliriz.
 
 ### Adım3: Terraform'u Windows'a Yükleme
 
-- Google'a terraform install diyerek Windows altında 386 olanı download ediyoruz.
+- [Buradan](https://developer.hashicorp.com/terraform/install#windows) Windows altında 386 olanı download ediyoruz.
 - Zip olarak ineceği için klasöre çıkartıyoruz.Klasör ismini terraform olarak değiştirelim.
 - terraform klasörünü C:\ dizini altına kopyalıyoruz.
 - Windows'da arama kısmına environment variable yazarak Environment Variables kısmına giriyoruz.
