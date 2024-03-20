@@ -25,6 +25,7 @@ navbar-links:
     - K8S: "/pages/k8s"
     - Docker: "/pages/docker"
     - Linux: "/pages/linux"
+    - Terraform: "/pages/terraform"
   SİNEMA: "/pages/sinema"
   FELSEFE: "/pages/felsefe"
 
