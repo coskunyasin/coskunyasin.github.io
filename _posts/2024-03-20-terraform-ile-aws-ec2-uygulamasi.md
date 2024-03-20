@@ -145,5 +145,5 @@ terraform komutlarında kullandığımız variablelara bu yazıda değinmedik.Ba
 ```
 eu-west-1 = "ami-0d0099f3f21d6b80e" 
 ```
-.instance.tf altındaki instance_type = t2.micro olmasının sebebi ise AWS'in ücretsiz olarak sunduğu instance olmasından kaynaklı.Region'a göre instance typeları değişkenlik gösterebiliyor bu yazıda eu-wes-1 üzerinden ilerledik.Bu kısmı araştırararak ücretsiz instance typeları ile kendinize göre terraformu özelleştirebilirsiniz.
+.instance.tf altındaki instance_type = t2.micro olmasının sebebi ise AWS'in ücretsiz olarak sunduğu instance olmasından kaynaklı.Region'a göre instance typeları değişkenlik gösterebiliyor bu yazıda eu-west-1 üzerinden ilerledik.Bu kısmı araştırarak ücretsiz instance typeları ile kendinize göre terraformu özelleştirebilirsiniz.
 
