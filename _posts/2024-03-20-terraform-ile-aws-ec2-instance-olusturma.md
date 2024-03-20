@@ -1,4 +1,13 @@
-# Terraform ile Aws Üzerinde EC2 Kaynak Yaratma
+---
+layout: post
+title: Terraform ile AWS Üzerinde EC2 Kaynak Olusturma
+subtitle: 
+tags: [terraform]
+comments: true
+author: Yasin Coskun
+---
+
+# Terraform ile Aws Üzerinde EC2 Kaynak Olusturma
 
 >Bu yazıda free aws hesabı oluşturma, windows'a terraform kurulumu ve free ec2 instance oluşturmayı açıklayacağım.
 
