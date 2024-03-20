@@ -12,17 +12,17 @@ author: Yasin Coskun
 
 ### Adım1: AWS Free Account Oluşturma
 
-Google free aws account diyerek kullanıcı oluşturuyoruz.Bu kısımlarda kişisel bilgileri isteyecektir.Burda kullandığınız e-posta ve telefon numarasını girmenizde dikkatli olun çünkü doğrulama isteyecek.Kredi kartı bilgilerinde ise sanal kart girmenizi tavsiye ederim bu kartı şimdilik 1TL limiti olması önemli çünkü kredi kartı doğrulama adımında 1TL çekiyor.
+Google'da  "**free aws account**" diyerek ilgili sayfada kullanıcı oluşturuyoruz.Bu kısımlarda kişisel bilgileri isteyecektir.Burda kullandığınız e-posta ve telefon numarasını girmenizde dikkatli olun çünkü doğrulama isteyecek.Kredi kartı bilgilerinde ise sanal kart girmenizi tavsiye ederim bu kartı şimdilik 1TL limiti olması önemli çünkü kredi kartı doğrulama adımında 1TL çekiyor.
 
 ### Adım2: AWS Hesap Ayarları
 
-Hesabınızı başarıyla oluşturduktan sonra Konsol Ana Sayfasına erişim sağlayabiliyor olmanı lazım.Sonraki adımımız arama kutucuğuna IAM yazarak kullanıcı ayarlarını yapmamız olacak.IAM panosundan solda Kullanıcılar kısmına girerek yeni bir user oluşturuyoruz.
+Hesabınızı başarıyla oluşturduktan sonra Konsol Ana Sayfasına erişim sağlayabiliyor olmanız lazım.Sonraki adımımız arama kutucuğuna IAM yazarak kullanıcı ayarlarını yapmamız olacak.IAM panosundan solda Kullanıcılar kısmına girerek yeni bir user oluşturuyoruz.
 
 ***IAM > Erişim Yönetimi > Kullanıcılar > Kullanıcı oluşturun***
 
 - Kullanıcı adını giriyoruz.Altta bulunan AWS Yönetimi Konsolun'na erişimi sağlayın kutucuğunu işaretlemiyoruz. > Sonraki
 
-- İzin ekleyin adımında kullanıcı grupları boş gözükecektir.Grup oluştur diyoruz ve herhangi bir isim vererek grup oluşturalım ve İzin politikasında en üstte bulunan AdministratorAccess olanı işaretleyerek kullanıcı grubu oluştur diyebiliriz.
+- İzin ekleyin adımında kullanıcı grupları boş gözükecektir.Grup oluştur diyoruz ve herhangi bir isim vererek grup oluşturalım ve İzin politikasında en üstte bulunan **AdministratorAccess** olanı işaretleyerek kullanıcı grubu oluştur diyebiliriz.
 
 - Şimdi son olarak Erişim Yönetimi > Kullanıcı grupları kısmından oluşturduğumuz gruba kullanıcımızı ekliyoruz.
 
