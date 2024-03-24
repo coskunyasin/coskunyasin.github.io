@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Terraform ile AWS Üzerinde EC2 Uygulaması
-description: 
 subtitle: 
 tags: [terraform]
 comments: true
