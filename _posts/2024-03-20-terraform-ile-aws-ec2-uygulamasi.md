@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Terraform ile AWS Üzerinde EC2 Uygulaması
-subtitle: 
 tags: [terraform]
 comments: true
 author: Yasin Coskun
