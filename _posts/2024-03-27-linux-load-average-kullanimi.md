@@ -31,6 +31,7 @@ Hesaplamayı ise 1 çekirdek eğer yüzde yüz cpu kullanıyorsa 1 değerini gö
 
 İlk olarak stress-ng toolu ile 1 cpu'ya yüzde 50 yük gönder diyorum.
 
+[resim]: ./resource/load-average/4.jpg
 <4.jpg>
 
 htop çıktısında ise load average değerimin 50'lerde olduğunu görüyorum.
