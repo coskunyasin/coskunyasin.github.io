@@ -7,9 +7,9 @@ author: Yasin Coskun
 ---
 
 # Regex nedir ve nerde kullanılır ?
-
+```
 /((\d{3})(?:\.|-))?(\d{3})(?:\.|-)(\d{4})/
-
+```
 Yukarıda bir regex örneği görüyoruz. Başta korkutucu gelmesi çok doğal ama biraz bakmaya başlayınca aslında işlerin basitleştiğini farkediyorsunuz.
 
 Regex namıdiğer Regular Expressions (Düzenli İfadeler) bir yazılım dili değil.Yazılım dilinden belirli ifadeleri belirli bir kombinasyonda yakalamamızı sağlayan bir araçtır.
@@ -90,14 +90,12 @@ input: Yas123*._-/
 output: Yas123*._-/
 ```
 - $ Bir dizenin sonuyla eşleşir.Belirli bir kalıpta biten dizeleri eşleştirir.
-
 ``` 
 regex: $_
 input: Yas123*._
 output:_
 ```
 - ^ belirli bir kalıpla başlayan dizeleri eşleştirmek için kullanılır
-
 ``` 
 regex: ^The
 input: The end
@@ -106,7 +104,6 @@ output: The
 ``` 
 
 - | OR operatörü gibi davranır.
-
 ``` 
 regex: yasin|tech
 input: yasin tech post
@@ -114,7 +111,7 @@ output: yasin tech
 
 ``` 
 
-***Basit olarak regex'in kullanımına baktık ama bundan daha fazlası olduğunu unutmamak gerekir.Örneklerinizi ve regexi daha iyi anlamak için https://regex101.com/ faydalı olacaktır.***
+***Basit olarak regex'in kullanımına baktık ama bundan daha fazlası olduğunu unutmamak gerekir.Örneklerinizi ve regexi daha iyi anlamak için [https://regex101.com](https://regex101.com/) faydalı olacaktır.***
 
 
 
