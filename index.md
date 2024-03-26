@@ -24,4 +24,5 @@ subtitle:  'A little bit of everything'
 
 - [https nasıl çalışır?](https://yasincoskun.tech/2024-02-19-k8s){:style="color: inherit"}
 - [cdn nedir?](https://yasincoskun.tech/2024-02-19-k8s){:style="color: inherit"}
+- [regex nedir ve nerelerde kullanılır?](https://yasincoskun.tech/2024-03-26-regex-nedir?){:style="color: inherit"}
 
