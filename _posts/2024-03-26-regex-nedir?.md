@@ -6,7 +6,7 @@ comments: true
 author: Yasin Coskun
 ---
 
-# Regex nedir ve nerde kullanılır ?
+
 ```
 /((\d{3})(?:\.|-))?(\d{3})(?:\.|-)(\d{4})/
 ```
