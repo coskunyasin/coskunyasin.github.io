@@ -104,12 +104,12 @@ output: The
 ``` 
 
 - | OR operatörü gibi davranır.
-``` 
+```
 regex: yasin|tech
 input: yasin tech post
 output: yasin tech
 
-``` 
+```
 
 ***Basit olarak regex'in kullanımına baktık ama bundan daha fazlası olduğunu unutmamak gerekir.Örneklerinizi ve regexi daha iyi anlamak için [https://regex101.com](https://regex101.com/) faydalı olacaktır.***
 
