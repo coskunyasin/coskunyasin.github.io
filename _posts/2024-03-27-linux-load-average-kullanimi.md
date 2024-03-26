@@ -18,7 +18,7 @@ Linux'ta load average (yük ortalaması) herhangi bir zamanda kaynak kullanımı
 
 ## **Nasıl yorumlarız?**
 
-Yukarıda belirttiğimiz gibi çekirdek sayısını tespit ettikten sonra yorumlama kısmına geçebiliriz.Aşağıda "w" komutu çıktısını görüyoruz. load average kısmı aslında 3 farklı zaman aralığını veriyor. 0.01 değeri 1dk, 0.07 5dk, 0.42 15dk'lık ortalamayı veriyor.
+Yukarıda belirttiğimiz gibi çekirdek sayısını tespit ettikten sonra yorumlama kısmına geçebiliriz.Aşağıda "w" komutu çıktısını görüyoruz. load average kısmı aslında 3 farklı zaman aralığını veriyor. 0.01 değeri **1dk**, 0.07 **5dk**, 0.42 **15dk**'lık ortalamayı veriyor.
 
 
 ```
@@ -27,16 +27,16 @@ $ w
 USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
 ```
 
-Hesaplamayı ise 1 çekirdek eğer yüzde yüz cpu kullanıyorsa 1 değerini görürüz. %50 kullanımda ise 0.50 aralığında bir çıktı görürüz.Aşağıda **stress-ng** toolu kullanarak burayı biraz daha açmak istiyorum.Benim sistemimde 4 çekirdek var ama aşağıdaki örnekte 1 çekirdeğe %50 yük göndererek ortalama çıktısını inceleyeceğiz.
+Hesaplamayı ise 1 core sistemimiz varsa ve %100 cpu kullanıyorsa 1 değerini görürüz. %50 kullanımda ise 0.50 aralığında bir çıktı görürüz.Aşağıda **stress-ng** toolu kullanarak burayı biraz daha açmak istiyorum.Benim sistemimde 4 çekirdek var ama aşağıdaki örnekte 1 çekirdeğe %50 yük göndererek ortalama çıktısını inceleyeceğiz.
 
 İlk olarak stress-ng toolu ile 1 cpu'ya yüzde 50 yük gönder diyorum.
 
-![](./resource/load-average/4.jpg)
-<4.jpg>
+![](/resource/load-average/4.jpg)
+
 
 htop çıktısında ise load average değerimin 50'lerde olduğunu görüyorum.
 
-<5.jpg>
+![](/resource/load-average/5.jpg)
 
 Bir diğer örnekte ise kendi sistemimi biraz zorlayarak örneklendireceğim
 
@@ -47,11 +47,11 @@ bu sefer stress-ng ile tüm thr'lere %90 yük gönderiyorum.
 Buradaki -c 0 olarak kullanmamızın sebebi core sayımı bilmiyorum tüm corelara gönder anlamında okuyabiliriz. -l ise göndereceğimiz yük yüzdesi
 
 
-<2.jpg>
+![](/resource/load-average/2.jpg)
 
 Htop çıktısında %90 yük gönderdikten sonra çıktımızı görüyoruz. 7.23'lük bir oran ile karşılaşıyoruz.Yani %100 yük gönderdiğimizde max 8'lik bir average ile karşılaşacağız. Buna göre çıktıyı yorumyabiliriz.
 
-<1.jpg>
+![](/resource/load-average/1.jpg)
 
 
 Sistemimizde kaç çekirdek olduğunu doğrulamak
@@ -59,7 +59,7 @@ Sistemimizde kaç çekirdek olduğunu doğrulamak
 ```
 cat /proc/cpuinfo | grep core
 ```
-<3.jpg>
+![](/resource/load-average/3.jpg)
 
 
 ### Core/Thread?
