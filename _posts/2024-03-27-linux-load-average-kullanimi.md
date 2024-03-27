@@ -30,6 +30,12 @@ USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
 
 Hesaplamayı ise 1 core sistemimiz varsa ve %100 cpu kullanıyorsa 1 değerini görürüz. %50 kullanımda ise 0.50 aralığında bir çıktı görürüz.Aşağıda **stress-ng** toolu kullanarak burayı biraz daha açmak istiyorum.Benim sistemimde 4 çekirdek var ama aşağıdaki örnekte 1 çekirdeğe %50 yük göndererek ortalama çıktısını inceleyeceğiz.
 
+Tek çekirdekli bir sistemde:
+
+0.00: CPU boş
+
+1.00: CPU %100 kullanılıyor
+
 İlk olarak stress-ng toolu ile 1 cpu'ya yüzde 50 yük gönder diyorum.
 
 ![](/resource/load-average/4.jpg)
@@ -66,6 +72,10 @@ cat /proc/cpuinfo | grep core
 ### Core/Thread?
 
 Bazen core/thread kafa karıştırıcı olabiliyor.Konu dışında olduğu için detaya girmeden burada sisteminizdeki core/thr çıktısını görmek için "lscpu" ve "htop" komutlarını kullanabilirsiniz.Yukarıdaki resimlerde htop çıktısında 0-7 aralığında thr görüyorsunuz.Bu benim toplamda 8 thr bir işlemciye sahip olduğumu gösteriyor.
+
+Core: İşlemcinin fiziksel işlem birimleridir.
+
+Thread: Her bir core'da çalışan sanal işlem birimleridir.
 
 
 4/18 core özelliğine sahip sistemimde lscpu çıktısı aşağıdaki gibi
