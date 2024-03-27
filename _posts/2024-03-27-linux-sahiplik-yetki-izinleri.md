@@ -20,7 +20,9 @@ Yukarıdaki örnekte demo dizini altında deneme.txt adında bir dosya var. Bunu
 
 
 **Dosya izinlerinin sayısal ifadesi:**
+
 ![](/resource/linux-sahiplik/1.jpg)
+
 
 deneme.txt dosyasının sayısal ifadesi 
 
