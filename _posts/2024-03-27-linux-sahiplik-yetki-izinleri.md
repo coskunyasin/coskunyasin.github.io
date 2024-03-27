@@ -7,7 +7,7 @@ comments: true
 author: Yasin Coskun
 ---
 
-### Linux'da Yetkiler ve Sahiplikler
+### Linux'da Yetki ve Sahiplikler
 
 Bu yazıda linux'da yetki,sahiplik ve okuma-yazma-çalıştırma yetkilerinin sayısal ifadelerine değineceğiz.
 
