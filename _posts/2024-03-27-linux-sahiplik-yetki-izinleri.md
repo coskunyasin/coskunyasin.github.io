@@ -41,7 +41,7 @@ chmod 777 deneme.txt
 
 **Sahiplik Değiştirme**
 
-deneme1.txt dosyamızın sahipliğini root'a atama işlemi yapalım.Root yetkisi olmayan kullanıcıda olduğum için başında sudo kullanarak "sudo chown root:root deneme1.txt" komutunu kullandım.Dosyamın root kullanıcısı ve root grubuna dahil olarak değiştiğini görmekteyiz.
+deneme1.txt dosyamızın sahipliğini root'a atama işlemi yapalım.Root yetkisi olmayan kullanıcıda olduğum için başında sudo kullanarak **"sudo chown root:root deneme1.txt"** komutunu kullandım.Dosyamın root kullanıcısı ve root grubuna dahil olarak değiştiğini görmekteyiz.
 
 ![](/resource/linux-sahiplik/4.jpg)
 
