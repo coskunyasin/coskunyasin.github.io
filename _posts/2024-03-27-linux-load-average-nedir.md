@@ -1,13 +1,12 @@
 ---
 layout: post
-title: Linux Load Average Kullanımı
+title: Linux Load Average Nedir?
 tags: [linux-load-average]
 cover-img: /resource/pages_logo/lnxx.jpg
 comments: true
 author: Yasin Coskun
 ---
 
-# LOAD AVARAGE
 
 ### Linux'da Load Average ne anlama geliyor?
 
@@ -36,7 +35,7 @@ Tek çekirdekli bir sistemde:
 
 1.00: CPU %100 kullanılıyor
 
-İlk olarak stress-ng toolu ile 1 cpu'ya yüzde 50 yük gönder diyorum.
+İlk olarak stress-ng toolu ile 1 cpu'ya %50 yük gönder diyorum.
 
 ![](/resource/load-average/4.jpg)
 
@@ -78,7 +77,7 @@ Core: İşlemcinin fiziksel işlem birimleridir.
 Thread: Her bir core'da çalışan sanal işlem birimleridir.
 
 
-4/18 core özelliğine sahip sistemimde lscpu çıktısı aşağıdaki gibi
+4/8 core özelliğine sahip sistemimde lscpu çıktısı aşağıdaki gibi
 
 ```
 $lscpu
