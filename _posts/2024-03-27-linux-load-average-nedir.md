@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux Load Average Nedir?
-tags: [linux-load-average][linux]
+tags: [linux-load-average,linux]
 cover-img: /resource/pages_logo/lnxx.jpg
 comments: true
 author: Yasin Coskun
