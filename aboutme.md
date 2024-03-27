@@ -1,6 +1,7 @@
 ---
 layout: page
 title: Hakkımda
+cover-img: /assets/img/about.gif
 subtitle: Yasin Coşkun
 ---
 
