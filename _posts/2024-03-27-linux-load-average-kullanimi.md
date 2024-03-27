@@ -2,7 +2,7 @@
 layout: post
 title: Linux Load Average Kullanımı
 tags: [linux-load-average]
-cover-img: /resource/pages_logo/lnxx.png
+cover-img: /resource/pages_logo/lnxx.jpg
 comments: true
 author: Yasin Coskun
 ---
