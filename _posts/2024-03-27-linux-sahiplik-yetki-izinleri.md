@@ -12,7 +12,7 @@ Bu yazıda linux'da yetki,sahiplik ve okuma-yazma-çalıştırma yetkilerinin sa
 
 **Dosya izinlerini anlamak**
 
-![](/resource/load-average/2.jpg)
+![](/resource/linux-sahiplik/2.jpg)
 
 Yukarıdaki örnekte demo dizini altında deneme.txt adında bir dosya var. Bunun dosya olduğunu **-** ifadesi ile anlıyoruz.Dizin olduğunu ise **d** ifadesiyle anlıyoruz.Örneğimize dahil olmasa da **l** ifadesi sembolik linki temsil etmektedir.Ekstra olarak hard link ve sembolik link için ayrı bir konu başlığı açacağım.
 
@@ -20,7 +20,7 @@ Yukarıdaki örnekte demo dizini altında deneme.txt adında bir dosya var. Bunu
 
 
 **Dosya izinlerinin sayısal ifadesi:**
-![](/resource/load-average/1.jpg)
+![](/resource/linux-sahiplik/1.jpg)
 
 deneme.txt dosyasının sayısal ifadesi 
 
@@ -37,13 +37,13 @@ Yukarıdaki hesaplama ile dosya izninin sayısal ifadesini bulmuş olduk.Sayısa
 ```
 chmod 777 deneme.txt
 ```
-![](/resource/load-average/3.jpg)
+![](/resource/linux-sahiplik/3.jpg)
 
 **Sahiplik Değiştirme**
 
 deneme1.txt dosyamızın sahipliğini root'a atama işlemi yapalım.Root yetkisi olmayan kullanıcıda olduğum için başında sudo kullanarak "sudo chown root:root deneme1.txt" komutunu kullandım.Dosyamın root kullanıcısı ve root grubuna dahil olarak değiştiğini görmekteyiz.
 
-![](/resource/load-average/4.jpg)
+![](/resource/linux-sahiplik/4.jpg)
 
 
 
