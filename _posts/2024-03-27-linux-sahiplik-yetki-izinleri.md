@@ -2,6 +2,7 @@
 layout: post
 title: Linux yetki ve sahiplik izinleri
 tags: [linux-yetki-sahiplik,linux]
+cover-img: /resource/pages_logo/lnxx.jpg
 comments: true
 author: Yasin Coskun
 ---
