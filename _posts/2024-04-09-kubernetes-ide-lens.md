@@ -3,7 +3,7 @@ Kubernetes'i farklı bir dashboard ile daha iyi anlamak veya denemek isteyebilir
 
 Bu post'da minikube ile ilerleyeceğiz.İlk adım olarak minikube start komutu ile minikube ayağa kaldırıyoruz.
 
-1.resim
+![](/resource/kubernetes-ide-lens/1.jpg)
 
 Daha sonra [buradan](https://k8slens.dev/download) lens'i download ediyoruz. Kurulum basit olduğundan dolayı adımlardan bahsetmiyorum.Github, google gibi hesaplarınızla oturum açabilirsiniz.
 
@@ -13,7 +13,7 @@ Kurulum tamamlandıysa Lens'i açarak solda katalog menüsüne tıklıyoruz ve s
 kubectl config view
 ``` 
 
-2.resim
-3.resim
+![](/resource/kubernetes-ide-lens/2.jpg)
+![](/resource/kubernetes-ide-lens/3.jpg)
 
 Add Cluster dedikten  sonra clusterımıza bağlanıyoruz ve aşağıdaki gibi bir dashboard karşılıyor bizi.Deneme olarak minikube addons enable edebilir veya bir deployment create ederek denemelerinizi yapabilirsiniz.
