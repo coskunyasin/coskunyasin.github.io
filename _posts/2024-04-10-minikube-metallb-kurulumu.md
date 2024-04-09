@@ -2,7 +2,7 @@
 layout: post
 title: Minikube MetalLB Yapılandırma
 tags: [kubernetes,k8s,minikube,metallb]
-cover-img: /resource/pages_logo/minikube.jpg
+cover-img: /resource/pages_logo/k8sheader.jpg
 comments: true
 author: Yasin Coskun
 ---
