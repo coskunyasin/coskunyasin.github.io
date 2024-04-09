@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Kubernetes IDE:LENS
-tags: [kubernetes,lens]
+tags: [kubernetes,lens,k8s]
 cover-img: /resource/pages_logo/k8s.png
 comments: true
 author: Yasin Coskun
