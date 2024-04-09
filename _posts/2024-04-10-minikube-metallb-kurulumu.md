@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Minikube: MetalLB Yapılandırma
+title: Minikube MetalLB Yapılandırma
 tags: [kubernetes,k8s,minikube,metallb]
 cover-img: /resource/pages_logo/minikube.jpg
 comments: true
