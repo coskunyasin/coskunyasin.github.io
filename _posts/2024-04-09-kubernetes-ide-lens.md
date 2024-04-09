@@ -1,4 +1,11 @@
-
+---
+layout: post
+title: Kubernetes IDE:LENS
+tags: [kubernetes,lens]
+cover-img: /resource/pages_logo/k8s.png
+comments: true
+author: Yasin Coskun
+---
 Kubernetes'i farklı bir dashboard ile daha iyi anlamak veya denemek isteyebilirsiniz.Bunun için LENS alternatif olarak karşımıza çıkmakta.Projenin web sitesinden ücretli paketlerin detaylarına bakabilirsiniz.Biz bu yazıda free olanı kullanacağız.
 
 Bu post'da minikube ile ilerleyeceğiz.İlk adım olarak minikube start komutu ile minikube ayağa kaldırıyoruz.
