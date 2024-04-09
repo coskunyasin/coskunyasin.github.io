@@ -1,19 +1,18 @@
 ---
 layout: post
-title: Kubernetes IDE:LENS
+title: Minikube: MetalLB Yapılandırma
 tags: [kubernetes,k8s,minikube,metallb]
-cover-img: /resource/pages_logo/k8sheader.png
+cover-img: /resource/pages_logo/minikube.jpg
 comments: true
 author: Yasin Coskun
 ---
+
 
 Bu post'da metallb detayına girmeden sadece minikube üzerinde yapılandırmayı nasıl yapabilir konusuna değineceğiz.Metallb projesini farklı bir yazıda detaylı ele alacağız.Özet olarak kubernetes ortamlarında LoadBalancer çözümü olarak kullanılan bir açık kaynak kodlu proje.
 
 İlk olarak minikube'de hazır addonsları kullanacağız.Komut satırımızda "**minikube addons list**" yazarak addonsları listeliyoruz.
 
-resim1
-
-
+![](/resource/minikube-metallb/1.jpg)
 
 
 metallb'yi disabled olarak görmekteyiz. Şimdi aşağıdaki komut ile enable ediyoruz.
@@ -42,19 +41,20 @@ Herşey tamam şimdi bir tane örnek yapalım.Normalde "**minikube dashboard**" 
 kubectl get svc -A
 ```
 
-resim2
+![](/resource/minikube-metallb/2.jpg)
 
 kubernetes dashoard servisimizin "**type: ClusterIP**" kısmını LoadBalancer olarak değiştiriyoruz.
 
 ```
 kubectl edit svc kubernetes-dashboard -n kubernetes-dashboard
 ```
+![](/resource/minikube-metallb/3.jpg)
 
 "**kubectl get svc -A**" komutu ile servisimizin EXTERNAL-IP kısmının ip aldığını görüyoruz.
 
-resim4
+![](/resource/minikube-metallb/4.jpg)
 
 Browserda external ip'yi yazarak dashboarda ulaştığımızı görmekteyiz.
 
-resim5
+![](/resource/minikube-metallb/5.jpg)
 
