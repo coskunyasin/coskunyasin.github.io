@@ -24,3 +24,5 @@ kubectl config view
 ![](/resource/kubernetes-ide-lens/3.jpg)
 
 Add Cluster dedikten  sonra clusterımıza bağlanıyoruz ve aşağıdaki gibi bir dashboard karşılıyor bizi.Deneme olarak minikube addons enable edebilir veya bir deployment create ederek denemelerinizi yapabilirsiniz.
+
+![](/resource/kubernetes-ide-lens/4.jpg)
