@@ -1,3 +1,12 @@
+---
+layout: post
+title: Markdown Temel Kullanımı
+tags: [markdown,md,döküman,blog]
+cover-img: /resource/pages_logo/markdown.jpg
+comments: true
+author: Yasin Coskun
+---
+
 Döküman hazırlamayı veya blog yazmayı düşünüyorsunuz ama hangi formatta yazmalıyım ilerde taşıma gibi senaryolarını da düşünürsek ne uygun olur gibi sorular soruyorsanız **Markdown** editörü ilginizi çekebilir.Markdown'u araştırdığımda şuan ki web sitemin alt yapısını da markdown ile yapabileceğimi farkettim.**Jekyll**, Markdown dosyalarını alıp bunları bir web sitesine dönüştüren statik bir site oluşturucudur.GitHub Pages, ücretsiz web sitesi oluşturma hizmetinin arka ucu olarak Jekyll'ı kullanıyor.Nitekim bende web sitemi markdown ile kullanıyorum.
 
 Birçok uygulama markdown destekliyor.Ben hem notlarımı ve blog yazılarımı yazarken **Joplin** kullanıyorum.Local olarak kullandığınızda senkronsuz bir şekilde ücretsiz olarak kullabilirsiniz.Ama Joplin Cloud ile birçok aygıt  senkronu ve daha fazla özellikleri ile size ücretli planını sunuyor.
