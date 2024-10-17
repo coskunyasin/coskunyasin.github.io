@@ -26,6 +26,7 @@ navbar-links:
     - Docker: "/pages/docker"
     - Linux: "/pages/linux"
     - Terraform: "/pages/terraform"
+    - System&Network: "/pages/system&network"
   SİNEMA: "/pages/sinema"
   FELSEFE: "/pages/felsefe"
 
