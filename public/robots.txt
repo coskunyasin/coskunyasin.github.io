@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://coskunyasin.github.io/sitemap.xml
