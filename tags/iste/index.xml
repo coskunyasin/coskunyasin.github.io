@@ -1,25 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on </title>
-    <link>https://coskunyasin.github.io/posts/</link>
-    <description>Recent content in Posts on </description>
+    <title>Iste on </title>
+    <link>https://coskunyasin.github.io/tags/iste/</link>
+    <description>Recent content in Iste on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Tue, 08 Oct 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://coskunyasin.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://coskunyasin.github.io/tags/iste/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Repairing 4Runner skid plate bolts</title>
       <link>https://coskunyasin.github.io/posts/alistirma/</link>
       <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
       <guid>https://coskunyasin.github.io/posts/alistirma/</guid>
-      <description>I ran into a problem with stripped bolts on a new 4Runner with the TRD skid plate.&#xA;A little bit of car repair can be nerdy, too. 🔧</description>
-    </item>
-    <item>
-      <title>Repairing 4Runner skid plate bolts</title>
-      <link>https://coskunyasin.github.io/posts/deneme/</link>
-      <pubDate>Tue, 08 Oct 2024 00:00:00 +0000</pubDate>
-      <guid>https://coskunyasin.github.io/posts/deneme/</guid>
       <description>I ran into a problem with stripped bolts on a new 4Runner with the TRD skid plate.&#xA;A little bit of car repair can be nerdy, too. 🔧</description>
     </item>
   </channel>
