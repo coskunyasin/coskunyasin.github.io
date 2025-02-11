@@ -7,7 +7,11 @@ Bir blog sitesi açma fikri aklıma geldiğinde, yazılarımı nasıl pratik bir
 
 ## Kurulum Aşaması
 
-Kurulumu congo'nun kendi web sitesindeki adımlardan takip ederek yaptım.[Burada](https://jpanther.github.io/congo/docs/installation/#install-using-hugo) birçok adım var ama ben hugo modülünü yükledim ve hugo komutuyla website oluşturdum daha sonrasında congo temasını github reposundan indirerek themes/congo dizinine yapıştırdım.
+Kurulumu congo'nun kendi web sitesindeki adımlardan takip ederek yaptım.[Burada](https://jpanther.github.io/congo/docs/installation/#install-using-hugo) birçok adım var ama ben hugo modülünü yükledim ve hugo komutuyla website oluşturdum daha sonrasında congo temasını submodüle olarak ekledim.
+
+```shell
+git submodule add -b stable https://github.com/jpanther/congo.git themes/congo  
+```
 
 Sonraki adımım ise coskunyasin.github.io adında bir repo oluşturmak oldu.Hugo ince ayarları dökümanı takip ederek yapabilirsiniz tüm bunlar bitiğinde ise oluşturduğunuz repoda master ve gh-pages adında iki tane branch oluşturdum.Github Pages'da sitemin yayınlandığı branch gh-pages ve bu branchde /public klasörü var.Github hesabımdan ilgili repoyu inceleyerek branchleri kontrol edebilirsiniz.
 
@@ -22,4 +26,5 @@ En son adımda ise github linkimi yasincoskun.tech adresine yönlendirmek olacak
 
 Bu işlemler tamamlandıktan sonra verified edebiliriz.En son işlemimiz ise ilgili repository settings kısmından Pages alanında Custom domain alanına domain adresimizi yazıyoruz ve save ile işlemi bitiriyoruzz.
 
-![](cc.webp)
+![](dns.jpg)
+

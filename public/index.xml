@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title></title>
-    <link>https://coskunyasin.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on </description>
     <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://coskunyasin.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Blog Hakkında</title>
-      <link>https://coskunyasin.github.io/posts/2025/deneme/</link>
+      <link>http://localhost:1313/posts/2025/blog-hakkinda/</link>
       <pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate>
-      <guid>https://coskunyasin.github.io/posts/2025/deneme/</guid>
+      <guid>http://localhost:1313/posts/2025/blog-hakkinda/</guid>
       <description></description>
     </item>
   </channel>
