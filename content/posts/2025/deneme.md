@@ -20,6 +20,6 @@ En son adımda ise github linkimi yasincoskun.tech adresine yönlendirmek olacak
   <li>185.199.111.153</li>
 </ul>
 
-Bu işlemler tamamlandıktan sonra verified edebiliriz.En son işlemimiz ise ilgili repository settings kısmından Pages alanında Custom domain alanına domain adresimizi yazıyoruz ve save ile işlemi bitiriyoruz.
+Bu işlemler tamamlandıktan sonra verified edebiliriz.En son işlemimiz ise ilgili repository settings kısmından Pages alanında Custom domain alanına domain adresimizi yazıyoruz ve save ile işlemi bitiriyoruzz.
 
 ![](cc.webp)
